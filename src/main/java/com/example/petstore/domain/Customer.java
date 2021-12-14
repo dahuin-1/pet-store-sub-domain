@@ -1,5 +1,10 @@
 package com.example.petstore.domain;
+/*
+http :8088/cats name="몽이
+http :8088/customers id="help@naver.com" address:='{"zipcode":"123","detail":"..."}'
+http :8088/cartItems customer="http://localhost:8088/customers/help@naver.com" pet="http://localhost:8088/cats/1"
 
+ */
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Id;
